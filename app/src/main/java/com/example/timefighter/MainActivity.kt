@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         button = findViewById(R.id.start_button)
 
         button.setOnClickListener { increamentScore() }
+        resetGame()
     }
 
 
